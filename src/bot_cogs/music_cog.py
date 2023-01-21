@@ -152,7 +152,3 @@ class Music(commands.Cog):
             await self.add_to_queue(ctx, search_string)
         else:
             await self.play_song(ctx, search_string)
-
-    @commands.command('hi')
-    async def play(self, ctx):
-        await ctx.send("Shut up fookin loser lmao")

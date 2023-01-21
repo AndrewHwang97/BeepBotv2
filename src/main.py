@@ -10,4 +10,4 @@ async def main():
     await bot.add_cog(Music(bot))
 
 asyncio.run(main())
-bot.run(os.getenv("TOKEN"))
+bot.run('MTA2NjQwNDEzOTY5MDYzNTMxNQ.G_Fqi4.DSqGQKVnxgKDfvTlX44D7o1hB9JZyIprrEtTu8')

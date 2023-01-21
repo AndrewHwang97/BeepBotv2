@@ -153,6 +153,6 @@ class Music(commands.Cog):
         else:
             await self.play_song(ctx, search_string)
 
-    @commands.command('')
+    @commands.command('hi')
     async def play(self, ctx):
         await ctx.send("Shut up fookin loser lmao")

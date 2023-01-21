@@ -1,4 +1,8 @@
-class General:
+import discord
+from discord.ext import commands
+from discord.ext import commands
 
-    def __init__(self) -> None:
-        pass
+
+class General(commands.Cog):
+    #TODO: add general commands here
+    pass

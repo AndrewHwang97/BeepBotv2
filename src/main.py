@@ -1,11 +1,13 @@
+import asyncio
 import discord
 from discord.ext import commands
-from bot_cogs.music import Music
-from bot_cogs.general import General
+from bot_cogs.music_cog import Music
 import os
 
-bot = commands.Bot(command_prefix='/')
-bot.add_cog(Music(bot))
-bot.add_cog(General(bot))
+bot = commands.Bot(command_prefix='/', intents = discord.Intents.all())
 
-bot.run(os.getenv("TOKEN"))
+async def main():
+    await bot.add_cog(Music(bot))
+
+asyncio.run(main())
+bot.run("MTA2NjQwNDEzOTY5MDYzNTMxNQ.GjGUnJ.i1TckutahXryYlO9e62RIE2RqOVJovbwHfKlhs")

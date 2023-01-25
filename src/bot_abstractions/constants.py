@@ -27,6 +27,22 @@ class BotMessages:
     QUEUE_CLEARED = 'Queue has been cleared'
     EMPTY_QUEUE = 'There are no songs in the queue'
     NOW_PLAYING = 'Now Playing: '
+    HELLO_STRINGS = [
+        'Shut up fookin loser lmao',
+        'I did ur mom',
+        'Hey... No one likes you',
+        'You have no friends',
+        'Word has it that you have a small peepee',
+        'Dont you have anything better to do than say hi to me?',
+        'Fill in the blank: _____ is a bad Astra Player. What are you doing with ur late lurks?',
+        'Fill in the blank: _____ is a bad Killjoy Player that likes to get railed from the side',
+        'Fill in the blank: _____ is a bad Jett Player',
+        'Fill in the blank: _____ is a bad Sage Player, you wish you had mommy milkers like her',
+        'Fill in the blank: _____ is a bad Harbor Player',
+        'Hi',
+        'Shut up before I hit the griddy on you',
+        'L + Ratiod'
+    ]
 
 class BotCommands:
     JOIN = 'join'
@@ -39,6 +55,7 @@ class BotCommands:
     RESUME = 'resume'
     STOP = 'stop'
     PLAY = 'play'
+    Hello = 'hi'
 
 class ErrorMessages:
     DOWNLOAD_SONG_ERROR = "Problem occured while downloading the song"

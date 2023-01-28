@@ -55,7 +55,7 @@ class BotCommands:
     RESUME = 'resume'
     STOP = 'stop'
     PLAY = 'play'
-    Hello = 'hi'
+    HELLO = 'hi'
     SCALE = 'scale'
 
 class ErrorMessages:

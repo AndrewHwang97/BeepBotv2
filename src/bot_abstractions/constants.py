@@ -55,7 +55,8 @@ class BotCommands:
     RESUME = 'resume'
     STOP = 'stop'
     PLAY = 'play'
-    Hello = 'hi'
+    HELLO = 'hi'
+    SCALE = 'scale'
 
 class ErrorMessages:
     DOWNLOAD_SONG_ERROR = "Problem occured while downloading the song"

@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands, tasks
-from bot_abstractions.constants import YDLConstants, FfmpegConstants, Constants, BotMessages, BotCommands, ErrorMessages
+from bot_abstractions.bot_constants import YDLConstants, FfmpegConstants, Constants, BotCommands, ErrorMessages
+from bot_abstractions.bot_messages import BotMessages
 from youtube_dl import YoutubeDL
 
 class Music(commands.Cog):

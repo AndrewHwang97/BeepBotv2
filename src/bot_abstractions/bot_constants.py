@@ -34,7 +34,9 @@ class BotCommands:
     HELLO = 'hi'
     SCALE = 'scale'
     EIGHT_BALL = '8ball'
+    IMAGE = 'image'
 
 class ErrorMessages:
     DOWNLOAD_SONG_ERROR = "Problem occured while downloading the song"
     EIGHT_BALL_ERROR = "Oopsies, looks like there was a problem shaking the 8-ball. Try again"
+    IMAGE_SEARCH_ERROR = "Oopsies, looks like there was a problem searching for the image"

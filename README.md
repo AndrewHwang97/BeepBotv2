@@ -17,3 +17,4 @@ commands are executed using the following format when connected to a discord voi
 | resume | Resumes paused song |
 | play {name of song} | conducts a youtube search based on input, downloads best matched youtube video |
 | play {youtube link} | Plays audio from the youtube link |
+test

@@ -20,6 +20,8 @@ commands are executed using the following format when connected to a discord voi
 
 ## Extra Commands
 commands that are not associated with playing music
+| Command | Description |
+| :---:   | :---: |
 | 8ball {question} | Returns value from 8ball |
 | scale {lowNumber}-{highNumber} {question} | Returns scale value from low to high (ex. scale 1-10 {question}) |
 | image {word} | Posts an image related to the word. NSFW images are filtered out |

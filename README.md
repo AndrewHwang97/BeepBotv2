@@ -5,7 +5,7 @@ Refactored version of BeepBot
 BeepBot is a music playing bot used on Discord that allows seamless audio playing to a voice channel with youtube links
 
 ## Commands
-commands are executed using the following format when connected to a discord voice channel: !<command> **args
+commands are executed using the following format when connected to a discord voice channel: <prefix><command> **args
 | Command | Description |
 | :---:   | :---: |
 | join | Commands bot to join voice channel of input user |
@@ -17,3 +17,11 @@ commands are executed using the following format when connected to a discord voi
 | resume | Resumes paused song |
 | play {name of song} | conducts a youtube search based on input, downloads best matched youtube video |
 | play {youtube link} | Plays audio from the youtube link |
+
+## Extra Commands
+commands that are not associated with playing music
+| Command | Description |
+| :---:   | :---: |
+| 8ball {question} | Returns value from 8ball |
+| scale {lowNumber}-{highNumber} {question} | Returns scale value from low to high (ex. scale 1-10 {question}) |
+| image {word} | Posts an image related to the word. NSFW images are filtered out |

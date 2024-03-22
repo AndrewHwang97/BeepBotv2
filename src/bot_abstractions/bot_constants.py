@@ -35,6 +35,7 @@ class BotCommands:
     SCALE = 'scale'
     EIGHT_BALL = '8ball'
     IMAGE = 'image'
+    FIGHT = 'fight'
 
 class ErrorMessages:
     DOWNLOAD_SONG_ERROR = "Problem occured while downloading the song"

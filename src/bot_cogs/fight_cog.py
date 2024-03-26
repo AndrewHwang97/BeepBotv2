@@ -9,7 +9,7 @@ class Fight(commands.Cog):
         self.client = client
 
     @commands.command(BotCommands.FIGHT)
-    async def fight(self, ctx, personToFight):
+    async def fight(self, ctx, personToFight: str):
         if ctx.message.author == personToFight:
             print("why are you fighting yourself")      
 
